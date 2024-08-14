@@ -7,7 +7,7 @@
 <h2>Links</h2>
 
 [![GitHub Thaiane](https://img.shields.io/github/followers/Angelns29?label=follow&style=social)](https://github.com/Angelns29)  
-[![Linkedin Badge](https://img.shields.io/badge/-AngelNavarrete-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/angel-navarrete-6783b9268/)](https://www.linkedin.com/in/angel-navarrete-6783b9268/)
+[![Linkedin Badge](https://img.shields.io/badge/-AngelNavarrete-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/angel-navarrete-6783b9268/)](https://www.linkedin.com/in/angel-navarrete-sanchez-6783b9268/)
 
 
 ### About me
