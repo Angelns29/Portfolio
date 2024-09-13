@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="src/Logo.png">
+    <title>Portfolio Angel Navarrete</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="header-icon" src="src/Logo.png">
+            <h1>Angel Navarrete</h1>
+            <p>Videogame programmer</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about" data-en="About me" data-es="Sobre Mí" data-cat="Sobre Mi">About me</a></li>
+                <li><a href="#skill" data-en="Skills" data-es="Habilidades" data-cat="Habilitats">Skills</a></li>
+                <li><a href="#projects" data-en="Projects" data-es="Proyectos" data-cat="Projectes">Projects</a></li>
+                <li><a href="#contact" data-en="Contact" data-es="Contacto" data-cat="Contacte">Contact</a></li>
+                <select id="language-dropdown">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="cat">Català</option>
+                </select>
+            </ul>
+        </nav>
+        <main>
+
+            <section id="about" class="section">
+                <h2 data-en="About me" data-es="Sobre mi" data-cat="Sobre Mi" class="title">About Me</h2>
+                <article class="flex-container">
+                    <div class="flex-item">
+                        <img src="src/ImagenAngelNavarrete.jpeg" alt="About me" class="img-Aboutme">
+                        <a class="flex-button" href="src/CV_AngelNavarrete.pdf" download="CV_AngelNavarrete.pdf">Download CV</a>
+                    </div>
+                    <div class="flex-item">
+                        <p data-es="Hola, mi nombre es Angel Navarrete y soy de Barcelona. Soy técnico superior en Desarrollo de Aplicaciones Multiplataforma con especialidad en Videojuegos y Ocio Digital. " data-cat="Hola, em dic Angel Navarrete i sóc de Barcelona. Sóc tècnic superior en Desenvolupament d'Aplicacions Multiplataforma amb especialitat en Videojocs i Oci Digital." data-en="Hello, my name is Angel Navarrete and I’m from Barcelona. I am a senior technician in Multiplatform Application Development with a specialization in Video Games and Digital Entertainment.">Hello, my name is Angel Navarrete and I’m from Barcelona. I am a senior technician in Multiplatform Application Development with a specialization in Video Games and Digital Entertainment.</p>
+                        <p data-es="Durante estos años he adquirido habilidades en programación, gestión de bases de datos y proyectos, además me he formado en programación de videojuegos y diseño 2D y 3D ya que es lo que más me apasiona." data-cat="Durant aquests anys he adquirit habilitats en programació, gestió de bases de dades i projectes, a més a més m'he format en programació de videojocs i disseny 2D i 3D ja que és el que m'apassiona més." data-en="During these years I have acquired skills in programming, database management and projects, also I have trained in programming of video games and design 2D and 3D as it is what I am most passionate about.">During these years I have acquired skills in programming, database management and projects, also I have trained in programming of video games and design 2D and 3D as it is what I am most passionate about. </p>
+                        <p data-es="Busco una oportunidad laboral en la que seguir explotando mis habilidades en programación y seguir aprendiendo de este sector que tanto me gusta." data-cat="Busco una oportunitat laboral on seguir explotant les meves habilitats en programació i seguir aprenent d'aquest sector que tant m'agrada." data-en="I am looking for a job opportunity where I can continue to exploit my programming skills and learn from this sector that I love.">I am looking for a job opportunity where I can continue to exploit my programming skills and learn from this sector that I love.</p>
+                    </div>
+                </article>
+                
+            </section>
+            
+            <h2 data-en="Skills" data-es="Habilidades" data-cat="Habilitats" class="title" id="skill">Skills</h2>
+            <h3 class="subtitle">Soft Skills</h3>
+            <div class="flex-container">
+                <div class="flex-item-sk">
+                    <img src="src/icons/Softskills/sk1.svg" alt="Resolución de conflictos" class="skicon">
+                    <h4 data-es="Resolución de conflictos" data-cat="Resolució de conflictes" data-en="Dispute Resolution">Dispute Resolution</h4>
+                </div>
+                <div class="flex-item-sk">
+                    <img src="src/icons/Softskills/sk2.svg" alt="Tolerancia a la presión" class="skicon">
+                    <h4 data-es="Tolerancia a la presión" data-cat="Tolerancia a la pressió" data-en="Pressure Tolerance">Pressure Tolerance</h4>
+                </div>
+                <div class="flex-item-sk">
+                    <img src="src/icons/Softskills/sk3.svg" alt="Adaptación al cambio" class="skicon">
+                    <h4 data-es="Adaptación al cambio" data-cat="Adaptació al canvi" data-en="Change Adaptation">Change Adaptation</h4>
+                </div>
+                <div class="flex-item-sk">
+                    <img src="src/icons/Softskills/sk4.svg" alt="Trabajo en equipo" class="skicon">
+                    <h4 data-es="Trabajo en equipo" data-cat="Treball en equip" data-en="Teamwork">Teamwork</h4>
+                </div>
+                <div class="flex-item-sk">
+                    <img src="src/icons/Softskills/sk5.svg" alt="Orientado a resultados" class="skicon">
+                    <h4 data-es="Orientado a resultados" data-cat="Orientat a resultat" data-en="Result Oriented">Result Oriented</h4>
+                </div>
+                <div class="flex-item-sk">
+                    <img src="src/icons/Softskills/sk6.svg" alt="Formación continuada" class="skicon">
+                    <h4 data-es="Formación continuada" data-cat="Formació Continuada" data-en="Continuing Education"></h4>
+                </div>
+            </div>
+
+            <h3 class="subtitle">Hard Skills</h3>
+            <section id="skills"class="section">
+                <!-- Barra lateral -->
+                <article class="sidebar-skills">
+                    <button class="tab-button" onclick="openTab('frontend')">Frontend</button>
+                    <button class="tab-button" onclick="openTab('backend')">Backend</button>
+                    <button class="tab-button" onclick="openTab('videogames')">Videogames</button>
+                    <button class="tab-button" onclick="openTab('methodologies')">Methodologies</button>
+                </article>
+
+                <article class="content-skills">
+                    <div id="frontend" class="tab-content">
+                        <h2>Frontend</h2>
+                        <p data-cat="Domino HTML, CSS3 i JavaScript. Durant el meu procés també he après Bootstrap 4 per disseny responsiu i el framework de Vue. En el futur m'agradaria aprendre més frameworks per endinsar-me més a fons al frontend." data-en="I dominate HTML, CSS3 and JavaScript. During my process I also learned Bootstrap 4 for responsive design and the Vue framework. In the future I would like to learn more frameworks to get deeper into the frontend." data-es="Domino HTML, CSS3 y JavaScript. Durante mi proceso también he aprendido Bootstrap 4 para diseño responsivo y el framework de Vue. En el futuro me gustaría aprender más frameworks para adentrarme más a fondo en el frontend.">I dominate HTML, CSS3 and JavaScript. During my process I also learned Bootstrap4 for responsive design and the Vue framework. In the future I would like to learn more frameworks to get deeper into the frontend.</p>
+                        <img src="src/icons/html.svg" alt="HTML" class="icon">
+                        <img src="src/icons/css.svg" alt="CSS" class="icon">
+                        <img src="src/icons/js.svg" alt="JavaScript" class="icon">
+                        <img src="src/icons/bootstrap.png" alt="Bootstrap" class="icon">
+                        <img src="src/icons/vue.svg" alt="VUE" class="icon">
+                    </div>
+        
+                    <div id="backend" class="tab-content" style="display:none;">
+                        <h2>Backend</h2>
+                        <p data-cat="És la meva àrea forta de coneixement i la que més m'entusiasma ja que m'encanta programar. He treballat gestió de bases de dades NoSQL, com MongoDB, i bases de dades relacionals, com PostgreSQL i MySQL, a més de ser un desenvolupador experimentat a C#, també tinc coneixements de Java i Python." data-es="Es mi área fuerte de conocimiento y la que más me entusiasma pues me encanta programar. He trabajado gestión de bases de datos NoSQL, como MongoDB, y bases de datos relacionales, como PostgreSQL y MySQL, además de ser un desarrollador experimentado en C#, también poseo conocimientos de Java y Python." data-en="It is my strong area of knowledge and the one that excites me most because I love to program. I have worked in NoSQL database management, such as MongoDB, and relational databases, such as PostgreSQL and MySQL, besides being an experienced developer in C#, I also have knowledge of Java and Python.">It is my strong area of knowledge and the one that excites me most because I love to program. I have worked in NoSQL database management, such as MongoDB, and relational databases, such as PostgreSQL and MySQL, besides being an experienced developer in C#, I also have knowledge of Java and Python.</p>
+                        
+                        <img src="src/icons/mongo.svg" alt="MongoDB" class="icon">
+                        <img src="src/icons/Postgresql.png" alt="Postgresql" class="icon">
+                        <img src="src/icons/charpp.png" alt="C#" class="icon">
+                        <img src="src/icons/java.png" alt="Java" class="icon">
+                        <img src="src/icons/python.png" alt="Python" class="icon">
+                    </div>
+        
+                    <div id="videogames" class="tab-content" style="display:none;">
+                        <h2>Videogames</h2>
+                        <p data-es="Es el área que más me apasiona. He creado pequeños proyectos con Unity y he trabajado en un proyecto con Unreal Engine en el que usaba Blueprints. Para el control de versiones y colaboración con otras personas he utilizado Git y Gitkraken. Para diseño 2D utilizo Krita y para modelar en 3D utilizo Blender." data-cat="És l'àrea que més m'apassiona. He creat petits projectes amb Unity i he treballat en un projecte amb Unreal Engine en què feia servir Blueprints. Per al control de versions i col·laboració amb altres persones he fet servir Git i Gitkraken. Per disseny 2D utilitzo Krita i per modelar en 3D utilitzo Blender." data-en="It's the area I'm most passionate about. I've created small projects with Unity and worked on a project with Unreal Engine where I used Blueprints. For version control and collaboration with others I have used Git and Gitkraken. For 2D design I use Krita and for 3D modeling I use Blender.">It's the area I'm most passionate about. I've created small projects with Unity and worked on a project with Unreal Engine where I used Blueprints. For version control and collaboration with others I have used Git and Gitkraken. For 2D design I use Krita and for 3D modeling I use Blender.</p>
+                        <img src="src/icons/krita.png" alt="Krita" class="icon">
+                        <img src="src/icons/blender.png" alt="Blender" class="icon">
+                        <img src="src/icons/unity3.png" alt="Unity" class="icon">
+                        <img src="src/icons/unreal.png" alt="Unreal Engine" class="icon">
+                        <img src="src/icons/git.svg" alt="Git" class="icon">
+                        <img src="src/icons/gitkraken.svg" alt="Gitkraken" class="icon">
+                    </div>
+        
+                    <div id="methodologies" class="tab-content" style="display:none;">
+                        <h2>Methodologies</h2>
+                        <p data-es="Mi formación actual abarca metodologías como OOP y la metodología Agile. Tengo la intención de expandir mis conocimientos para incluir metodologías como TDD (Test-Driven Development) y BDD (Behavior-Driven Development), entre otras." data-cat="La meva formació actual abasta metodologies com OOP i la metodologia Agile. Tinc la intenció d'expandir els meus coneixements per incloure metodologies com ara TDD (Test-Driven Development) i BDD (Behavior-Driven Development), entre d'altres." data-en="My current training covers methodologies such as OOP and Agile. I intend to expand my knowledge to include methodologies such as TDD (Test-Driven Development) and BDD (Behavior-Driven Development), among others.">My current training covers methodologies such as OOP and Agile. I intend to expand my knowledge to include methodologies such as TDD (Test-Driven Development) and BDD (Behavior-Driven Development), among others.</p>
+                        <img src="src/icons/oop.png" alt="OOP" class="icon">
+                        <img src="src/icons/scrum.svg" alt="Blender" class="icon">
+                    </div>
+                </article>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="title">Projects</h2>
+                <article class="flex-container">
+                    <div class="flex-item">
+                        <h1>Wordle in console</h1>
+                        <img src="src/projects/wordle.jpg" alt="Descripción de la imagen" class="flex-image">
+                        <p data-en="The first project when i was learning C# language. Is a traditional Wordle in console in three diferents languages: English, Spanish and Catalan" data-es="El primer proyecto que hice cuando estaba aprendiendo C#, es un Wordle tradicional en consola en tres idiomas diferentes: inglés, español y catalán." data-cat="El primer projecte que fent estava aprenent C#, és un Wordle tradicional en consola en tres idiomes diferents: anglès, espanyol i català.">The first project when i was learning C# language. Is a traditional Wordle in console in three diferents languages: English, Spanish and Catalan</p>
+                        <a class="flex-button" href="https://github.com/Angelns29/WordleConsole"  target="_blank">Leer más</a>
+                    </div>
+                    <div class="flex-item">
+                        <h1>The Abyss</h1>
+                        <img src="src/projects/TheAbyss.png" alt="Descripción de la imagen" class="flex-image">
+                        <p data-en="First video game created by Unity based on the indie video game VVVVVV" data-es="Primer videojuego creado en Unity basado en el videojuego indie VVVVVV" data-cat="Primer videojoc creat a Unity basat en el videojoc indie VVVVVV">First video game created by Unity based on the indie video game VVVVVV</p>
+                        <a class="flex-button" href="https://github.com/Angelns29/TheAbyssGame"  target="_blank">Leer más</a>
+                    </div>
+                    <div class="flex-item">
+                        <h1>Freddy The Worm</h1>
+                        <img src="src/projects/FreddyTheWorm.png" alt="Descripción de la imagen" class="flex-image">
+                        <p data-en="Endless runner game created with some companions, story and original characters made by us." data-es="Juego Endless runner creado con unos compañeros, historia y personajes originales hechos por nosotros." data-cat="Joc Endless runner creat amb uns companys, història i personatges originals fets per nosaltres.">Endless runner game created with some companions, story and original characters made by us.</p>
+                        <a class="flex-button" href="https://github.com/Angelns29/FedericoElGusano"  target="_blank">Leer más</a>
+                    </div>
+                    <div class="flex-item">
+                        <h1>HermenegilDoom</h1>
+                        <img src="src/projects/hermenegildoom.png" alt="Descripción de la imagen" class="flex-image">
+                        <p data-en="Roguelike with procedural rooms, the fact that he puts Doom is because the character is called hermenegildo and it was a good word play." data-es="Roguelike con habitaciones procedurales, el hecho que ponga Doom es porque el personaje se llama hermenegildo y quedaba bien ese juego de palabras." data-cat="Roguelike amb habitacions procedents, el fet que posi Doom és perquè el personatge es diu hermenegildo i quedava bé aquest joc de paraules.">Roguelike with procedural rooms, the fact that he puts Doom is because the character is called hermenegildo and it was a good word play.</p>
+                        <a class="flex-button" href="https://github.com/Angelns29/HermenegilDOOM"  target="_blank">Leer más</a>
+                    </div>
+                    <div class="flex-item">
+                        <h1>Quimikanimals</h1>
+                        <img src="src/projects/quimikanimals.png" alt="Descripción de la imagen" class="flex-image">
+                        <p data-en="Application for the mobile based on a pokedex but of animals with materials from the periodic table." data-es="Aplicación para el móvil basada en una pokedex pero de animales con materiales de la tabla periódica." data-cat="Aplicació per al mòbil basada en una pokedex però danimals amb materials de la taula periòdica.">Application for the mobile based on a pokedex but of animals with materials from the periodic table.</p>
+                        <a class="flex-button" href="https://github.com/Angelns29/Quimikanimals"  target="_blank">Leer más</a>
+                        <a class="flex-button" href="src/projects/Quimikanimals.apk" download="Quimikanimals.apk">Download</a>
+                    </div>
+                    <div class="flex-item">
+                        <h1>Blob's Tale</h1>
+                        <img src="src/projects/Blob's tale.jpg" alt="Descripción de la imagen" class="flex-image">
+                        <p data-en="Another Roguelike created but this one the difference is that it starts with a book which you prepare the adventure and then you start." data-es="Otro Roguelike creado pero este la diferencia es que empieza con un libro el cual te preparas la aventura y después empiezas." data-cat="Un altre Roguelike creat però aquest la diferència és que comença amb un llibre que et prepares l'aventura i després comences.">Another Roguelike created but this one the difference is that it starts with a book which you prepare the adventure and then you start.</p>
+                        <a class="flex-button" href="https://github.com/Angelns29/BlobsTale"  target="_blank">Leer más</a>
+                    </div>
+                    <div class="flex-item">
+                        <h1>Perry's Adventure</h1>
+                        <img src="src/projects/perrysAdventure.png" alt="Descripción de la imagen" class="flex-image">
+                        <p data-en="Perry's Adventure is the first time I was into creating 3D video games, the character Perry is made by me in Blender." data-es="Perry's Adventure es la primera vez con el que me adentraba a la creación de videojuegos en 3D, el personaje Perry es hecho por mi en Blender." data-cat="Perry's Adventure és la primera vegada amb què m'endinsava a la creació de videojocs en 3D, el personatge Perry és fet per mi a Blender.">Perry's Adventure is the first time I was into creating 3D video games, the character Perry is made by me in Blender.</p>
+                        <a class="flex-button" href="https://github.com/Angelns29/Perry-s-Adventure"  target="_blank">Leer más</a>
+                    </div>
+                </article>
+                <h2 data-en="Others Projects" data-es="Otros Projectos" data-cat="Altres Projectes" class="title">Others Projects</h2>
+                <p data-en="Apart from Video Games I have also done some 3D modeling, it is one of the things that I would like to learn more about as it seems very interesting." data-es="Aparte de Videojuegos también he hecho algún modelaje 3D, es una de las cosas de las cuales me gustaría aprender más ya que me parece muy interesante." data-cat="A banda de Videojocs també he fet algun modelatge 3D, és una de les coses de les quals m'agradaria aprendre més ja que em sembla molt interessant.">Apart from Video Games I have also done some 3D modeling, it is one of the things that I would like to learn more about as it seems very interesting.</p>
+                <article class="flex-container">
+                    <div class="flex-item">
+                        <h1>Perry 3D</h1>
+                        <div class="flex-images">
+                            <img src="src/projects/perry1.png" alt="Descripción de la imagen">
+                            <img src="src/projects/perry2.png" alt="Descripción de la imagen">
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <h1>Weapon with Animation</h1>
+                        <img src="src/projects/weapon.gif" alt="Descripción de la imagen" class="flex-image">
+                    </div>
+                    <div class="flex-item">
+                        <h1>Strife: Card Game</h1>
+                        <img src="src/projects/Strife.png" alt="Descripción de la imagen" class="flex-image">
+                        <a class="flex-button" href="https://drive.google.com/drive/folders/14YHgCW1-R-i0DqQ68te1bs7XdLQM-qjz?usp=sharing" target="_blank">See it</a>
+                    </div>
+                </article>
+            </section>
+            <section id="contact" class="icon-container">
+                <a href="https://www.linkedin.com/in/angel-navarrete-sanchez-6783b9268" target="_blank" class="icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Angelns29" target="_blank" class="icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://angelns29.itch.io/" target="_blank" class="icon">
+                    <i class="fas fa-gamepad"></i>
+                </a>
+                <a href="mailto:angelitonavarretesanchez@gmail.com" target="_blank" class="icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </section>
+
+            <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+        </main>
+        <footer>
+            <p>&copy; 2024 Angel Navarrete Sanchez Portfolio</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
