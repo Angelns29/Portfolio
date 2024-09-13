@@ -3,12 +3,14 @@
 }
 body {
     position: relative;
+	font-family: "Oswald";
     margin: 0;
-    font-family: "Oswald";
+	padding: 0;
     background-image: url("src/background.gif");
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
+	background-attachment: fixed;
     color: #ffffff;
 }
   
@@ -30,6 +32,7 @@ header h1 {
     position: absolute;
     font-size: 2.5em;
     margin-bottom: 0.5em;
+	margin-top: 33px;
 }
 
 header p {
