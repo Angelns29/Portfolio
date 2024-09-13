@@ -227,38 +227,17 @@ a:hover {
     background-color: rgba(0,0,0, 0.1);
     color: black; 
 }
-.skills_bar{
-    tab-size: 4;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    --primary: #222831;
-    --secondary: #fd7014;
-    --secondary-50: #fd701444;
-    --tertiary: #9ca3af;
-    --tertiary-2: #babfc7;
-    --poppins: "Poppins", sans-serif;
-    --jetBrains: "JetBrains Mono", monospace;
-    --headerHeight: 100vh;
-    --scrollbarBG: #1c1c1c;
-    --thumbBG: #9ca3af88;
-    --sidePadding: 75px;
-    color: var(--tertiary);
-    font-family: var(--poppins);
-    font-size: 1rem;
-    -webkit-font-smoothing: antialiased;
-    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-    margin: 0;
-    box-sizing: border-box;
-}
+
  /*skills*/
 
 #skills{
     display: flex;
+	flex-direction: column; /* Esto será para pantallas más grandes */
+    flex-wrap: wrap;
 }
 .sidebar-skills {
-    width: 15%;
-    padding: 20px;
-    text-align: right;
+    width: 100%;
+	text-align: center;
 }
 
 .tab-button {
@@ -278,12 +257,25 @@ a:hover {
 }
 
 .content-skills {
-    width: 75%;
+    width: 100%;
     flex-grow: 1;
     border: black 2px solid;
     border-radius: 4%;
     margin: 0% 2%;
     background: rgba(4, 43, 27, 0.6);
+}
+/* Media Query para pantallas pequeñas */
+@media (min-width: 500px) {
+	#skills {
+        flex-direction: row; /* Cambia el layout a columnas en pantallas pequeñas */
+    }
+	.sidebar-skills{
+		width: 25%;
+		
+	}
+	.content-skills{
+		width: 70%;
+	}
 }
 
 .tab-content {
